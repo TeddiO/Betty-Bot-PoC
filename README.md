@@ -13,6 +13,5 @@ You'll need to make a Bot user in the [Discord app section](https://discordapp.c
 From there it's a case of firing up the bot (Assuming below dependancies are met) and you should be good to go!
 
 ## Requirements
-- Python 3.6
-- [Requests](http://docs.python-requests.org/en/master/)
-- [Websockets](https://github.com/aaugustin/websockets)
+- Python 3.6+
+- [aiohttp](https://github.com/aio-libs/aiohttp)
