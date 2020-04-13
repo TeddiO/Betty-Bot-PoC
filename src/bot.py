@@ -98,7 +98,7 @@ async def BotStart():
 # loading the API and so on.
 def BotDeployment():
 
-	apiDataInfo = urllib.request.Request(f"{discordWebAPI}{discordEntryUrl}", headers = {"User-Agent": os.getenv("DISCORD_API_USERAGENT", "BettyBot by Teddi")})
+	apiDataInfo = urllib.request.Request(f"{discordWebAPI}{discordEntryUrl}", headers = {"User-Agent": os.getenv("DISCORD_API_USERAGENT", "Proof of Concept Bot")})
 	apiData = urllib.request.urlopen(apiDataInfo)
 	global discordAPI
 	discordAPI = json.loads(apiData.read())['url']
